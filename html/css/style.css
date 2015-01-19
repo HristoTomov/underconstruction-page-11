@@ -1,0 +1,396 @@
+html {
+    background-color: #c8c8c8;
+}
+#wrapper {
+    height: 370px;
+    width: 780px;
+    margin: 0 auto;
+}
+#logo {
+    padding-top: 40px;
+    min-height:40px;
+}
+#box_top {
+    background-image: url("../img/box_top.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 131px;
+}
+#box_top h1 {
+    font-family:'Raleway', arial, serif;
+    font-size: 27px;
+    color: #fdfdfd;
+    padding-top: 54px;
+    padding-left: 10px;
+}
+#box_counter {
+    background-image: url("../img/box_counter.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 110px;
+}
+/* jQuery Countdown styles 1.5.8. */
+.hasCountdown {
+    border: 0;
+    padding-left:164px;
+    overflow: hidden;
+    display:block;
+}
+.countdown_row {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+.countdown_show4 .countdown_section{
+    margin:0 auto;
+    padding-right:33px;
+}
+.countdown_section {
+    display: block;
+    float: left;
+    color: #fdfdfd;
+    font-size: 18px;
+    line-height:120%;
+    text-align: center;
+    background-image:url(../img/counter_bg.jpg);
+    width:88px;
+    background-repeat:no-repeat;
+}
+.countdown_amount {
+    font-family: 'Arvo', arial, serif;
+    font-size: 36px;
+    color: #fdfdfd;
+    line-height:170%;
+}
+.countdown_descr {
+    display: block;
+    width: 100%;
+}
+/**********************************/
+#box_progress {
+    background-image: url("../img/box_progress.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 87px;
+}
+#box_progress p{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 15px;
+}
+#pb1_pbText {
+    font-family: arial, serif;
+    font-size: 17px;
+    color: #fdfdfd;
+    position:absolute;
+    margin-left:407px;
+    margin-top:4px;
+}
+#box_slider {
+    margin:0 auto;
+    width:620px;
+    height:154px;
+    background-image: url("../img/box_slider.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    position:relative;
+}
+#box_slider #slidesContainer {
+    margin:0 auto;
+    width:508px;
+    height:154px;
+    overflow:auto;
+    position:relative;
+}
+#box_slider #slidesContainer .slide {
+    margin:0 auto;
+    width:488px;
+    height:154px;
+}
+.control {
+    display:block;
+    width:56px;
+    height:154px;
+    text-indent:-10000px;
+    position:absolute;
+    cursor: pointer;
+}
+#leftControl {
+    top:0;
+    left:0;
+    background:transparent url(../img/control_left.png) no-repeat 0 0;
+}
+#leftControl:hover{
+    top:0;
+    left:0;
+    background-position: 0 -154px;
+}
+#rightControl {
+    top:0;
+    right:0;
+    background:transparent url(../img/control_right.png) no-repeat 0 0;
+}
+#rightControl:hover {
+    top:0;
+    right:0;
+    background-position: 0 -154px;
+}
+#twitter_text {
+    background-image: url("../img/twitter_text.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height:104px;
+    width:321px;
+    margin-left:24px;
+    margin-top:14px;
+}
+#twitter_meta {
+    background-image: url("../img/twitter_text_meta.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height:25px;
+    width:321px;
+    margin-left:24px;
+}
+#twitter_text p{
+    font-family: arial, serif;
+    font-size: 16px;
+    color: #fdfdfd;
+    padding:6px 8px;
+    line-height:110%;
+}
+#twitter_text a{
+    color: #fdfdfd;
+}
+#twitter_meta p{
+    font-family: arial, serif;
+    font-size: 16px;
+    color: #fdfdfd;
+    text-align:right;
+    vertical-align:bottom;
+    padding-right:7px;
+
+}
+#twitter_bird {
+    padding-top:14px;
+    width:133px;
+    float:right;
+}
+#newsletter {
+    height: 154px;
+}
+#newsletter p{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 25px;
+    padding-bottom:13px;
+    line-height:120%;
+}
+#form_newsletter {
+    padding-left:50px;
+}
+#input {
+    float:left;
+    width:327px;
+}
+#button {
+    float:left;
+    width: 85px;
+}
+#email {
+    background: url("../img/input.jpg") no-repeat top;
+    font-size: 18px;
+    border: 0 none;
+    color: #fdfdfd;
+    width: 327px;
+    height: 36px;
+    padding-left:5px;
+    line-height: 36px;
+}
+#submit {
+    background: url("../img/button.jpg") no-repeat top;
+    border: 0 none;
+    cursor: pointer;
+    height: 36px;
+    width: 85px; 
+}
+.error {
+    background: url("../img/cross.png") no-repeat bottom transparent;
+    background-position:70px;
+    color: #cc3333;
+    padding-left:90px;
+    font-family: arial, serif;
+    font-size: 14px;
+    line-height:220%;
+}
+.added {
+    background: url("../img/tick.png") no-repeat bottom transparent;           
+    background-position:70px;
+    color: #99ca3c;
+    padding-left:100px;
+    font-family: arial, serif;
+    font-size: 14px;
+    line-height:220%;
+}
+#contacts {
+    height: 154px;
+}
+#contacts p{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 25px;
+    padding-bottom:13px;
+    line-height:120%;
+}
+#contacts li{
+   clear: both;
+}
+#contact_type_e  {
+    background-image: url("../img/address_be_bg.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    float:left;
+    padding-right:5px;
+    width:30%;
+}
+#contact_type_p {
+    background-image: url("../img/address_be_bg.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    float:left;
+    padding-right:5px;
+    width:30%;
+}
+#contact_type_e p{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 4px;
+    line-height:100%;
+    padding-bottom:10px;
+}
+#contact_type_p p{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 4px;
+    line-height:100%;
+    padding-bottom:10px;
+}
+#contact_info_e {
+    background-image: url("../img/address_be_bg.jpg");
+    background-position: right top;
+    float:left;
+    height:28px;
+    padding-right:4px;
+    padding-left:4px;
+}
+#contact_info_p  {
+    background-image: url("../img/address_be_bg.jpg");
+    background-position: right top;
+    float:left;
+    height:28px;
+    padding-right:4px;
+    padding-left:4px;
+}
+#contact_info_e p{
+    background-image: url("../img/address_bg.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 4px;
+    line-height:100%;
+    padding-bottom:10px;
+}
+#contact_info_p p{
+    background-image: url("../img/address_bg.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    padding-top: 4px;
+    line-height:100%;
+    padding-bottom:10px;
+}
+
+#contact_info_e a{
+    font-family: arial, serif;
+    font-size: 18px;
+    color: #fdfdfd;
+    text-decoration:none;
+}
+#box_social {
+    background-image: url("../img/box_social.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 59px;
+    width:100%;
+    clear:left;
+    float:left;
+    overflow:hidden;
+}
+#box_social ul {
+    padding-top:15px;
+    clear:left;
+    float:left;
+    left:50%;
+    position:relative;
+}
+#box_social li {
+    right:50%;
+    display:block;
+    float:left;
+    position:relative;
+    margin-left:15px;
+}
+#box_social span {
+    display:none;
+}
+#box_social a {
+    display:block;
+    height:32px;
+    width:32px;
+}
+#box_social a:hover {
+    background-position: center -32px; 
+}
+#rss {
+    background: url("../img/32_rss.png") no-repeat center top;
+}
+#facebook {
+    background: url("../img/32_facebook.png") no-repeat center top;
+}
+#twitter {
+    background: url("../img/32_twitter.png") no-repeat center top;
+}
+#linkedin {
+    background: url("../img/32_linkedin.png") no-repeat center top;
+}
+#flickr {
+    background: url("../img/32_flickr.png") no-repeat center top;
+}
+#lastfm {
+    background: url("../img/32_lastfm.png") no-repeat center top;
+}
+#digg {
+    background: url("../img/32_digg.png") no-repeat center top;
+}
+#myspace {
+    background: url("../img/32_myspace.png") no-repeat center top;
+}
+#devart {
+    background: url("../img/32_devart.png") no-repeat center top;
+}
+#box_bottom {
+    display:block;
+    background-image: url("../img/box_bottom.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100px;
+}
